@@ -1,0 +1,7 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        xRev = x[::-1]
+        if xRev == x:
+            return True
+        return False
+        
